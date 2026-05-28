@@ -1,0 +1,42 @@
+name: MV Carbon Tracker
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python monitor.py
+
+      - name: Commit updated state files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add state/
+
+          git diff --cached --quiet || git commit -m "Update MV Carbon Tracker state"
+
+          git push
+
