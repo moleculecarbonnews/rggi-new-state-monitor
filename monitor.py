@@ -262,15 +262,9 @@ def main():
         try:
             current_text = fetch_central_content(page["url"])
 
-        except Exception as e:
-            changes.append({
-                "name": page["name"],
-                "url": page["url"],
-                "diff": f"ERROR CHECKING PAGE:\n{e}",
-            })
-
-            print(f"Error checking {page['name']}: {e}", flush=True)
-            continue
+except Exception as e:
+    print(f"Error checking {page['name']}: {e}", flush=True)
+    continue
 
         current_hash = make_hash(current_text)
 
