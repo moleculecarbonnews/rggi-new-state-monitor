@@ -12,10 +12,6 @@ from bs4 import BeautifulSoup
 
 PAGES = [
     {
-        "name": "Virginia DEQ Carbon Trading",
-        "url": "https://www.deq.virginia.gov/air-energy/greenhouse-gases/carbon-trading",
-    },
-    {
         "name": "RGGI New Participation",
         "url": "https://www.rggi.org/program-overview-and-design/new-participation",
     },
