@@ -9,6 +9,13 @@ Later this year, Virginia will undertake regulatory action to align the state’
 More information is available on the Virginia Department of Environmental Quality website,
 here
 .
+On June 30, 2026, Virginia shared a news release announcing the state’s resumption of RGGI participation.
+Jun. 30, 2026 News Release
+Format
+Released
+Governor Spanberger Signs Legislation to Address High Energy Costs & Rejoin RGGI
+Link
+6.30.26
 In July 2020, Virginia concluded its initial process to begin RGGI participation with the release of a final regulation which was accompanied by a statement from the RGGI states.
 Jul. 8, 2020 Statement
 Format
@@ -54,7 +61,7 @@ Statement on Re-Proposed Virginia Greenhouse Gas Rule
 PDF
 9.27.18
 On April 9, 2018, the RGGI states submitted joint comments on Virginia's first draft regulation.
-April. 9, 2018 Comments
+Apr. 9, 2018 Comments
 Format
 Released
 Release
@@ -173,6 +180,7 @@ LINKS AND DOCUMENTS
 --------------------------------------------------------------------------------
 DOCUMENT LINK: RGGI New State Participation Overview -> https://www.rggi.org/sites/default/files/Uploads/Participation/RGGI_New_State_Participation_Overview.pdf
 LINK: here -> https://www.deq.virginia.gov/air-energy/greenhouse-gases/carbon-trading
+LINK: Governor Spanberger Signs Legislation to Address High Energy Costs & Rejoin RGGI -> https://www.governor.virginia.gov/newsroom/news-releases/2026/june-releases/name-1120477-en.html
 DOCUMENT LINK: Statement on Virginia Greenhouse Gas Rule -> https://www.rggi.org/sites/default/files/Uploads/Press-Releases/2020_07_08_VA_Announcement_Release.pdf
 DOCUMENT LINK: Statement Regarding Virginia State Budget -> https://www.rggi.org/sites/default/files/Uploads/Press-Releases/2019_05_06_Virginia_Budget.pdf
 DOCUMENT LINK: RGGI States Applaud Key Step for Virginia Emissions Trading Regulation -> https://www.rggi.org/sites/default/files/Uploads/Press-Releases/2019_04_19_Virginia_Regulation.pdf
